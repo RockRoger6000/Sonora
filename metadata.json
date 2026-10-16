@@ -1,0 +1,6 @@
+{
+  "name": "Sonora",
+  "description": "Hi-Res Android music player with native equalizer, FLAC/ALAC support, lockscreen controls, and sleep timer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

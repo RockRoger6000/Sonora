@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Sonora</string>
+    <string name="widget_name">Sonora Mini Player</string>
+
+    <!-- Navigation -->
+    <string name="tab_home">Home</string>
+    <string name="tab_now_playing">Now Playing</string>
+    <string name="tab_library">Library</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Library -->
+    <string name="lib_songs">Songs</string>
+    <string name="lib_albums">Albums</string>
+    <string name="lib_artists">Artists</string>
+    <string name="lib_playlists">Playlists</string>
+    <string name="lib_sort_by">Sort by</string>
+    <string name="sort_year_released">Year Released</string>
+    <string name="sort_latest_added">Latest Added</string>
+    <string name="sort_title">Title</string>
+    <string name="sort_artist">Artist</string>
+    <string name="search_hint">Search songs, artists, albums…</string>
+    <string name="empty_library">No music tracks found</string>
+    <string name="scan_local_music">Scan Local Storage</string>
+    <string name="grant_storage_permission">Grant Audio Access</string>
+    <string name="storage_permission_rationale">Sonora needs audio storage access to discover your local FLAC, ALAC, and MP3 files.</string>
+
+    <!-- Playback -->
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_next">Next</string>
+    <string name="action_prev">Previous</string>
+    <string name="action_shuffle">Shuffle</string>
+    <string name="action_repeat">Repeat</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="repeat_off">Repeat Off</string>
+    <string name="repeat_all">Repeat All</string>
+    <string name="repeat_one">Repeat One</string>
+    <string name="shuffle_on">Shuffle On</string>
+    <string name="shuffle_off">Shuffle Off</string>
+
+    <!-- Equalizer -->
+    <string name="equalizer_title">Native Equalizer</string>
+    <string name="equalizer_preset">Preset</string>
+    <string name="preset_custom">Custom</string>
+    <string name="preset_flat">Flat</string>
+    <string name="preset_rock">Rock</string>
+    <string name="preset_pop">Pop</string>
+    <string name="preset_jazz">Jazz</string>
+    <string name="preset_classical">Classical</string>
+    <string name="preset_hiphop">Hip Hop</string>
+    <string name="preset_heavymetal">Heavy Metal</string>
+    <string name="preset_acoustic">Acoustic</string>
+    <string name="preset_electronic">Electronic</string>
+    <string name="preset_bass_boost">Bass Heavy</string>
+    <string name="bass_boost_label">Bass Boost</string>
+    <string name="virtualizer_label">3D Surround</string>
+    <string name="equalizer_enabled">Hardware DSP Active</string>
+
+    <!-- Sleep Timer -->
+    <string name="sleep_timer_title">Sleep Timer</string>
+    <string name="sleep_timer_off">Off</string>
+    <string name="sleep_timer_5m">5 minutes</string>
+    <string name="sleep_timer_15m">15 minutes</string>
+    <string name="sleep_timer_30m">30 minutes</string>
+    <string name="sleep_timer_45m">45 minutes</string>
+    <string name="sleep_timer_60m">60 minutes</string>
+    <string name="sleep_timer_fade_label">Gradually fade volume before stop</string>
+    <string name="sleep_timer_active">Stopping in %s</string>
+    <string name="cancel_timer">Cancel Timer</string>
+
+    <!-- Track Details & Hi-Res -->
+    <string name="track_info_title">Track Information &amp; Hi-Res Specs</string>
+    <string name="info_format">Format</string>
+    <string name="info_bitrate">Bit-rate</string>
+    <string name="info_samplerate">Sample Rate</string>
+    <string name="info_bitdepth">Bit Depth</string>
+    <string name="info_channels">Channels</string>
+    <string name="info_decoder">Decoder Engine</string>
+    <string name="info_decoder_val">Android Native Codec (Hardware Accelerated)</string>
+    <string name="info_album">Album</string>
+    <string name="info_artist">Artist</string>
+    <string name="info_year">Year</string>
+    <string name="info_filesize">File Size</string>
+    <string name="info_path">File Location</string>
+    <string name="hires_certified">Hi-Res Audio Certified</string>
+    <string name="lossless_audio">Lossless Quality</string>
+
+    <!-- Social Sharing -->
+    <string name="share_instagram">Share to Instagram Story</string>
+    <string name="share_general">Share Track</string>
+    <string name="share_message">Listening to %1$s by %2$s on Sonora Hi-Res Music Player 🎵</string>
+
+    <!-- Playlists & Favorites -->
+    <string name="playlist_favorites">Favorites</string>
+    <string name="playlist_recently_played">Recently Played</string>
+    <string name="playlist_hires">Hi-Res Lossless</string>
+    <string name="create_playlist">Create Playlist</string>
+    <string name="playlist_name_hint">Playlist Name</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="track_added_to_favorites">Added to Favorites</string>
+    <string name="track_removed_from_favorites">Removed from Favorites</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_amoled">AMOLED Pitch Dark</string>
+    <string name="theme_midnight">Midnight Slate</string>
+    <string name="theme_light">Pure Studio Light</string>
+    <string name="theme_system">System Default</string>
+    <string name="settings_language">Language / Bahasa</string>
+    <string name="lang_english">English</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="settings_audio_engine">Audio Engine</string>
+    <string name="native_decoder_desc">Direct Android MediaCodec hardware decoding with 24-bit PCM output</string>
+    <string name="gapless_playback">Gapless Playback</string>
+    <string name="cloud_sync_title">Cross-Platform Cloud Sync</string>
+    <string name="cloud_sync_desc">Synchronize playlists and audio preferences across your devices</string>
+    <string name="btn_sync_now">Sync Now</string>
+    <string name="btn_backup">Export Backup</string>
+    <string name="btn_restore">Restore from Backup</string>
+    <string name="sync_success">Playlists and settings synced successfully</string>
+    <string name="last_synced">Last synced: %s</string>
+    <string name="about_sonora">About Sonora Music</string>
+    <string name="version_info">Sonora Hi-Res Audio v1.0 • Pure Android Native</string>
+</resources>

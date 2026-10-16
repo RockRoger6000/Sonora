@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Sonora</string>
+    <string name="widget_name">Pemutar Mini Sonora</string>
+
+    <!-- Navigasi -->
+    <string name="tab_home">Beranda</string>
+    <string name="tab_now_playing">Sedang Diputar</string>
+    <string name="tab_library">Pustaka</string>
+    <string name="tab_settings">Pengaturan</string>
+
+    <!-- Pustaka -->
+    <string name="lib_songs">Lagu</string>
+    <string name="lib_albums">Album</string>
+    <string name="lib_artists">Artis</string>
+    <string name="lib_playlists">Daftar Putar</string>
+    <string name="lib_sort_by">Urutkan</string>
+    <string name="sort_year_released">Tahun Rilis</string>
+    <string name="sort_latest_added">Terbaru Ditambahkan</string>
+    <string name="sort_title">Judul</string>
+    <string name="sort_artist">Artis</string>
+    <string name="search_hint">Cari lagu, artis, album…</string>
+    <string name="empty_library">Tidak ada lagu ditemukan</string>
+    <string name="scan_local_music">Pindai Penyimpanan Lokal</string>
+    <string name="grant_storage_permission">Beri Akses Audio</string>
+    <string name="storage_permission_rationale">Sonora memerlukan akses penyimpanan audio untuk memindai berkas FLAC, ALAC, dan MP3 lokal Anda.</string>
+
+    <!-- Pemutaran -->
+    <string name="action_play">Putar</string>
+    <string name="action_pause">Jeda</string>
+    <string name="action_next">Berikutnya</string>
+    <string name="action_prev">Sebelumnya</string>
+    <string name="action_shuffle">Acak</string>
+    <string name="action_repeat">Ulangi</string>
+    <string name="action_favorite">Favorit</string>
+    <string name="repeat_off">Ulangi Mati</string>
+    <string name="repeat_all">Ulangi Semua</string>
+    <string name="repeat_one">Ulangi Satu</string>
+    <string name="shuffle_on">Acak Aktif</string>
+    <string name="shuffle_off">Acak Mati</string>
+
+    <!-- Ekualiser -->
+    <string name="equalizer_title">Ekualiser Asli</string>
+    <string name="equalizer_preset">Preset</string>
+    <string name="preset_custom">Kustom</string>
+    <string name="preset_flat">Datar</string>
+    <string name="preset_rock">Rock</string>
+    <string name="preset_pop">Pop</string>
+    <string name="preset_jazz">Jazz</string>
+    <string name="preset_classical">Klasik</string>
+    <string name="preset_hiphop">Hip Hop</string>
+    <string name="preset_heavymetal">Heavy Metal</string>
+    <string name="preset_acoustic">Akustik</string>
+    <string name="preset_electronic">Elektronik</string>
+    <string name="preset_bass_boost">Bas Bertenaga</string>
+    <string name="bass_boost_label">Peningkat Bas</string>
+    <string name="virtualizer_label">Suara Sekitar 3D</string>
+    <string name="equalizer_enabled">DSP Perangkat Keras Aktif</string>
+
+    <!-- Pengatur Waktu Tidur -->
+    <string name="sleep_timer_title">Waktu Tidur</string>
+    <string name="sleep_timer_off">Mati</string>
+    <string name="sleep_timer_5m">5 menit</string>
+    <string name="sleep_timer_15m">15 menit</string>
+    <string name="sleep_timer_30m">30 menit</string>
+    <string name="sleep_timer_45m">45 menit</string>
+    <string name="sleep_timer_60m">60 menit</string>
+    <string name="sleep_timer_fade_label">Pudarkan volume secara bertahap sebelum berhenti</string>
+    <string name="sleep_timer_active">Berhenti dalam %s</string>
+    <string name="cancel_timer">Batalkan Timer</string>
+
+    <!-- Rincian Lagu & Audio Resolusi Tinggi -->
+    <string name="track_info_title">Informasi Lagu &amp; Spesifikasi Hi-Res</string>
+    <string name="info_format">Format</string>
+    <string name="info_bitrate">Kecepatan Bit</string>
+    <string name="info_samplerate">Tingkat Sampel</string>
+    <string name="info_bitdepth">Kedalaman Bit</string>
+    <string name="info_channels">Saluran</string>
+    <string name="info_decoder">Mesin Dekoder</string>
+    <string name="info_decoder_val">Android Native Codec (Akselerasi Perangkat Keras)</string>
+    <string name="info_album">Album</string>
+    <string name="info_artist">Artis</string>
+    <string name="info_year">Tahun</string>
+    <string name="info_filesize">Ukuran Berkas</string>
+    <string name="info_path">Lokasi Berkas</string>
+    <string name="hires_certified">Sertifikasi Audio Resolusi Tinggi</string>
+    <string name="lossless_audio">Kualitas Tanpa Kehilangan (Lossless)</string>
+
+    <!-- Berbagi Sosial -->
+    <string name="share_instagram">Bagikan ke Cerita Instagram</string>
+    <string name="share_general">Bagikan Lagu</string>
+    <string name="share_message">Sedang mendengarkan %1$s oleh %2$s di Sonora Hi-Res Music Player 🎵</string>
+
+    <!-- Daftar Putar & Favorit -->
+    <string name="playlist_favorites">Favorit</string>
+    <string name="playlist_recently_played">Terakhir Diputar</string>
+    <string name="playlist_hires">Hi-Res Lossless</string>
+    <string name="create_playlist">Buat Daftar Putar</string>
+    <string name="playlist_name_hint">Nama Daftar Putar</string>
+    <string name="add_to_playlist">Tambah ke Daftar Putar</string>
+    <string name="track_added_to_favorites">Ditambahkan ke Favorit</string>
+    <string name="track_removed_from_favorites">Dihapus dari Favorit</string>
+
+    <!-- Pengaturan -->
+    <string name="settings_appearance">Tampilan</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_amoled">Gelap Pekat AMOLED</string>
+    <string name="theme_midnight">Batu Tulis Tengah Malam</string>
+    <string name="theme_light">Terang Studio</string>
+    <string name="theme_system">Mengikuti Sistem</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="lang_english">English</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="settings_audio_engine">Mesin Audio</string>
+    <string name="native_decoder_desc">Dekoding perangkat keras langsung Android MediaCodec dengan keluaran PCM 24-bit</string>
+    <string name="gapless_playback">Pemutaran Tanpa Jeda</string>
+    <string name="cloud_sync_title">Sinkronisasi Cloud Lintas Platform</string>
+    <string name="cloud_sync_desc">Sinkronkan daftar putar dan preferensi audio di seluruh perangkat Anda</string>
+    <string name="btn_sync_now">Sinkronkan Sekarang</string>
+    <string name="btn_backup">Ekspor Cadangan</string>
+    <string name="btn_restore">Pulihkan dari Cadangan</string>
+    <string name="sync_success">Daftar putar dan pengaturan berhasil disinkronkan</string>
+    <string name="last_synced">Terakhir disinkronkan: %s</string>
+    <string name="about_sonora">Tentang Sonora Music</string>
+    <string name="version_info">Sonora Hi-Res Audio v1.0 • Murni Android Asli</string>
+</resources>
